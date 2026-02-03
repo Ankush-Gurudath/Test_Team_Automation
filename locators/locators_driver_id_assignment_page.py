@@ -1,0 +1,35 @@
+class LocatorsDriverIdAssignment:
+    trip_count_xpath = '//span[contains(text()," Trip")]/parent::div/preceding-sibling::div/div'
+    vehicle_label_xpath = '//span[text()="Vehicle"]'
+    group_label_xpath = '//span[text()=" Group "]'
+    driver_label_xpath = '//span[text()="Driver"]'
+    employee_id_label_xpath = '//span[text()=" Employee Id "]'
+    driver_id_source_label_xpath = '//span[text()="Driver Id Source"]'
+    trip_start_label_xpath = '//span[text()="Trip Start"]'
+    trip_end_label_xpath = '//span[text()="Trip End"]'
+    duration_label_xpath = '//span[text()=" Duration "]'
+    assigned_trips_summary_label_xpath = '//div[text()="ASSIGNED TRIPS"]'
+    assigned_by_dispatch_api_summary_label_xpath = '/html/body/app-root/shell/div/div/div/driver-id/div/' \
+                                                   'driver-id-assignment-summary/div/div[1]/lx-summary-table/' \
+                                                   'div/div[3]/div[1]/div'
+    assigned_by_lytx_badge_summary_label_xpath = '//div[text()="ASSIGNED BY LYTX BADGE"]'
+    assigned_by_vehicle_summary_label_xpath = '//div[text()="ASSIGNED BY VEHICLE"]'
+    unassigned_trips_summary_label_xpath = '//div[text()="UNASSIGNED TRIPS"]'
+    percent_of_all_assigned_trips_graph_label_xpath = '//div[text()="% of All Assigned Trips"]'
+    filter_group_button_xpath = '//*[text()=" Select Group(s) "]'
+    search_filter_group_textbox_xpath = '//input[@placeholder="Search Groups"]'
+    select_search_filter_group_button_xpath = '/html/body/ngb-modal-window/div/div/multi-group-selector-modal/' \
+                                              'multi-group-selector/div/div[1]/div[2]/div/lytx-typeahead/div/' \
+                                              'ngb-typeahead-window/button'
+    done_filter_group_button_xpath = '/html/body/ngb-modal-window/div/div/multi-group-selector-modal/' \
+                                     'multi-group-selector/div/div[3]/button[2]'
+    date_filter_button_xpath = '(//i[@class="lx-icon lx-calendar"]/parent::div)[1]'
+    first_date_filter_button_xpath = '(//ngb-datepicker-month/div[4]/div[3])[1]'
+    second_date_filter_button_xpath = '(//ngb-datepicker-month/div[4]/div[6])[1]'
+    apply_filter_date_button_xpath = '//button[text()="Apply"]'
+    search_filter_button_xpath = '//span[text()=" Select Search "]'
+    search_driver_filter_button_xpath = '//li/span[text()=" Driver "]'
+    search_vehicle_filter_button_xpath = '//li/span[text()=" Vehicle "]'
+    search_criteria_filter_textbox_xpath = '//input[@type="text"]'
+    select_searched_name_button_xpath = '//button[@class="dropdown-item active"]'
+    reset_button_xpath = '//div[text()="Reset"]'

@@ -1,0 +1,9 @@
+__pycache__/
+.idea/
+geckodriver.log
+.DS_Store
+**/.DS_Store
+.env
+.venv
+env/
+venv/

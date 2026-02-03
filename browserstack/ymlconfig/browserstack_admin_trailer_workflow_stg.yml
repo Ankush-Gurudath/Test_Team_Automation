@@ -1,0 +1,18 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: Admin-Trailer-Workflow-STG
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Admin-Trailer-Workflow-STG
+disableAutoCaptureLogs: true
+consoleLogs: errors
+testObservability: true
+networkLogs: true
+networkLogsOptions:
+  captureContent: true

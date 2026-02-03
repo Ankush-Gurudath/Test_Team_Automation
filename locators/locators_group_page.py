@@ -1,0 +1,13 @@
+class LocatorsGroupPage:
+    popup_desc = '//app-group-case-success//p[@class="header_request"]'
+    popup_supp_center_desc = '//div[@class="paragraph"]//p[not(@class="text")]'
+    popup_supp_center_link = '//div[@class="paragraph"]//p[not(@class="text")]//a'
+    popup_submission_ack = '//app-group-case-success//p[@class="text"]'
+    ok_btn = '//app-group-case-success//button[@class="close-button"]'
+    cross_btn = '//app-group-case-success//span[@class="close-icon"]'
+    submit_btn = '//button[contains(@class,"btn-primary")]'
+    download_group_template_btn = '//span[@class="csv"]'
+    page_title = '//h4'
+    highlighted_group_menu_icon = '//div[@mattooltip="Groups and Users"]//div[contains(@class,"divider")]'
+    nav_menu = '//div[@mattooltip="Groups and Users"]'
+    popup_title = '//app-group-case-success//div[@class="header"]'

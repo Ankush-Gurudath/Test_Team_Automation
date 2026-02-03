@@ -1,0 +1,11 @@
+class LocatorsNavigationMenu:
+    install_menu_icon = '//div[@mattooltip="Shipments / Installs"]'
+    highlighted_install_menu_icon = '//div[@class="tab-parent tab-parent-bgc"]//div[@mattooltip="Shipments / Installs"]//div[@class="icon-label"]'
+    shipment_menu_icon = '//div[@mattooltip="Shipping List"]'
+    highlighted_shipment_menu_icon = '//div[@class="tab-parent tab-parent-bgc"]//div[@mattooltip="Shipping List"]//div[@class="icon-label"]'
+    groups_menu_icon = '//div[@mattooltip="Groups and Users"]'
+    highlighted_groups_menu_icon = '//div[@class="tab-parent tab-parent-bgc"]//div[@mattooltip="Groups and Users"]//div[@class="icon-label"]'
+    orders_menu_icon = '//div[@mattooltip="Orders"]'
+    orders_groups_menu_icon = '//div[@class="tab-parent tab-parent-bgc"]//div[@mattooltip="Orders"]//div[@class="icon-label"]'
+    spinner_icon = '//mat-progress-spinner'
+    page_title = '(//div[@class="title-heading"]//child::*)[1]'

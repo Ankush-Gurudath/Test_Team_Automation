@@ -1,0 +1,13 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+parallelsPerPlatform: 1
+buildName: Fleet-Telematics-Sanity-UI-Automation-PROD
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Fleet-Telematics-Sanity-UI-Automation-PROD
+consoleLogs: errors
+testObservability: true

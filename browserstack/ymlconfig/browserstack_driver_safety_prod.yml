@@ -1,0 +1,16 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: Driver-Safety-Regression-PROD
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Driver-Safety-Regression-PROD
+disableAutoCaptureLogs: true
+consoleLogs: errors
+testObservability: true
+idleTimeout: 300

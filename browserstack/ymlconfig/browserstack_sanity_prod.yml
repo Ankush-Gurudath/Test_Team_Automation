@@ -1,0 +1,22 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+#    Commenting below code for future use. - If we want to run tests in chrome.
+#    chromeOptions:
+#      args:
+#        - "--ignore-ssl-errors=yes"
+#        - "--ignore-certificate-errors"
+parallelsPerPlatform: 1
+buildName: Sanity-PROD
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Sanity-PROD
+consoleLogs: errors
+testObservability: true
+debug: true
+networkLogs: true
+networkLogsOptions:
+  captureContent: true

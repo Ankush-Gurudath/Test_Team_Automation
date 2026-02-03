@@ -1,0 +1,17 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: chrome
+    browserVersion: latest
+parallelsPerPlatform: 1
+buildName: Video-Search-Regression-PROD
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Video-Search-Regression-PROD
+consoleLogs: errors
+testObservability: true
+debug: true
+networkLogs: true
+networkLogsOptions:
+  captureContent: true

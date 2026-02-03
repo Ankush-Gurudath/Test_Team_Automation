@@ -1,0 +1,25 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browser: Chrome
+    browserVersion: latest
+    chromeOptions:
+      args:
+        - --lang=fr-FR
+
+#  - os: Windows
+#    osVersion: 11
+#    browserName: Firefox
+#    browserVersion: latest
+#    firefoxOptions:
+#      prefs:
+#        intl.accept_languages: 'fr-FR'
+
+parallelsPerPlatform: 1
+buildName: Localization-Sanity
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Localization-Sanity
+consoleLogs: errors
+testObservability: true

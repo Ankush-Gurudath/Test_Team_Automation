@@ -1,0 +1,18 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: Geotab-Report-Add-Ins-UI-Automation-PROD
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Geotab-Report-Add-Ins-UI-Automation-PROD
+disableAutoCaptureLogs: true
+consoleLogs: errors
+testObservability: false
+uploadMedia: ['media://89c6ec885036d9f4314a255b78c13bba6e4c5fd5', 'media://9b65c26c24d895f3b9928eacdb735fd5db67c7f5',
+    'media://8d6076fa28fc25b53e0029f63d895c6c63f46edf', 'media://581e9e9c2467e4afaf90c30e3857dddc061b2930',
+    'media://7c81436f8662ba8045fa1a7e0799a410c458d70b']

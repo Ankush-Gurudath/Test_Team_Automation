@@ -1,0 +1,18 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Safari
+    browserVersion: latest
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: Sandbox
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Sandbox
+disableAutoCaptureLogs: true
+consoleLogs: errors
+testObservability: true
+networkLogs: true
+networkLogsOptions:
+  captureContent: true

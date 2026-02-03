@@ -1,0 +1,10 @@
+class VehicleData:
+    group = '***Corrupt Event***'
+    vehicle_name = 'automation_vehicle'
+    vin = '3FAHP0HA5AR250482'
+    location_name = '115 Southeast Front Street'
+    diagnostic_port = 'Yes'
+    order = 'Q-128742'
+    license_state = 'US-AL'
+    dvir = 'True'
+    license_plate = 'Up 32 jb 8894'

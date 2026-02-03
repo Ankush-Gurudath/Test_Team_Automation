@@ -1,0 +1,15 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: Fleet-Regression-STG
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Fleet-Regression-STG
+disableAutoCaptureLogs: true
+consoleLogs: errors
+testObservability: true

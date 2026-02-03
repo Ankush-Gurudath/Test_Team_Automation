@@ -1,0 +1,17 @@
+userName: aaronfawcett_7yUJj9
+accessKey: 1NnNfSqs2s5cwsggj6sj
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+parallelsPerPlatform: 1
+buildName: Ferguson-Sanity-UI-Automation-PROD
+buildIdentifier: ${BUILD_NUMBER}
+projectName: Ferguson-Sanity-UI-Automation-PROD
+consoleLogs: errors
+testObservability: true
+debug: true
+networkLogs: true
+networkLogsOptions:
+  captureContent: true
